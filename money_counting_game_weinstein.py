@@ -7,7 +7,15 @@ Date: 9/23/2019
 File Name: money_counting_game_weinstein.py
 
 Pseudocode:
-1.
+1. Define constant variables: penny value, nickel value, dime value, quarter value, and total pennies in a dollar
+2. Initial user input for number of coins
+3. Check if any negative integers input
+    3.1 If any negative intgers, have user choose new inputs
+4. If no negative integers, continue on to check if total value of coins > one dollar
+    4.1 If total value of coins > one dollar, print "the amount was more than one dollar"
+5. If total value of coins < one dollar
+    5.1 Print "the amount was less than one dollar"
+6. Else print winning message, total value of coins must equal 0
 """
 
 # Define constants.
