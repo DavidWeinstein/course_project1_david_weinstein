@@ -26,7 +26,7 @@ diagnosis = ["Reboot the computer and try to connect.",
     "Reboot the router and try to connect.",
     "Make sure the cables between the router & modem are plugged in firmly.",
     "Move the router to a new loaction and try to connect."
- ]
+]
 finalStep = "Get a new router."
 
 # Variable for user input string

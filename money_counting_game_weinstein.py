@@ -40,7 +40,7 @@ while pennies < 0 or nickels < 0 or dimes < 0 or quarters < 0:
     dimes = int(input("Enter the number of dimes: "))
     quarters = int(input("Enter the number of quarters: "))
 
-# Value of coins if al positive integers
+# Value of coins if all positive integers
 value = pennies * PENNY_VALUE + nickels * NICKEL_VALUE + dimes * DIME_VALUE + quarters * QUARTER_VALUE
 
 # Check if more than one dollar, else if check if less than one dollar, else print winning message
